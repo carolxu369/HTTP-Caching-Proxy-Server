@@ -1,0 +1,7 @@
+Testcases:
+
+1. GET: http://www.news.cn/, http://www.people.com.cn/, http://www.dangdang.com/ (this website needs lots of time to load), http://www.artsci.utoronto.ca/futurestudents (This website itself sometimes may lose connection due to network busyness, which is not the problem of the proxy.) http://www.httpwatch.com/httpgallery/chunked/chunkedimage.aspx
+2. POST: http://httpbin.org/post (This website itself sometimes may lose connection or responding 504 due to busyness, which is not the problem of the proxy. When you click the "submit order" button, you may need to click several times to submit or maybe just one time click.)
+(Due to the network and the size of the website, sometimes it may take longer time to load a website. You can
+wait for a while and if the website still cannot be loaded, you better refresh the website to get the response. As the size of the website maybe large, if the website is not loaded fully (images), you better refresh the website.)
+3. CONNECT: all https websites work fun, here providing some examples: do any google search, https://www.youtube.com/ (you can also watch streaming videos), https://www.amazon.com/

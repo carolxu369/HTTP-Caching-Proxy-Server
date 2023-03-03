@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+  proxy:
+      build: ./proxy_code
+      user: root
+      volumes:
+        - ./proxy_code:/var/log/erss
+      ports:
+        - "12345:12345"
+      tty: true
